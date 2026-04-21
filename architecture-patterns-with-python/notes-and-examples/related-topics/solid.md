@@ -255,7 +255,7 @@ In Python, you'll rarely define many abstract base classes like this. You may in
 The Dependency Inversion Principle (DIP) introduced by [Robert C. Martin](https://en.wikipedia.org/wiki/Robert_C._Martin) (Uncle Bob) in 2003 states that:
 > Abstractions should not depend on details. Details should depend on abstractions. High-level modules should not depend on low-level modules. Both should depend on abstractions.
 
-This is already explained in the [introduction notes](notes.md#dependency-inversion-principle-dip) DIP section.
+This is already explained in the [introduction notes](../introduction/notes.md#dependency-inversion-principle-dip) DIP section.
 
 Nonetheless, the main idea is that you should depend on abstractions (e.g., interfaces or abstract classes) rather than concrete implementations. This allows for more flexible and maintainable code, as you can easily swap out implementations without affecting the high-level logic of your application.
 

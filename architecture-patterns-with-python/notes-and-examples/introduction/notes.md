@@ -63,7 +63,7 @@ In a layered architecture, we divide our code into roles, and we introduce rules
 We have user-interface components, which could be a web page, an API, or a command line; these user-interface components communicate with a business logic layer that contains our business rules and our workflows; and finally, we have a database layer.
 
 ## The Dependency Inversion Principle
-The dependency inversion principle is the D in SOLID, more information can be found [here](solid.md).
+The dependency inversion principle is the D in SOLID, more information can be found [here](../related-topics/solid.md).
 
 The DIP's formal definition is as follows:
 1. High-level modules should not depend on low-level modules. Both should depend on abstractions.
