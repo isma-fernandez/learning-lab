@@ -55,8 +55,10 @@ Encapsulation and abstraction help us by hiding details and simplifying behavior
 
 In a layered architecture, we divide our code into roles, and we introduce rules about which categories of code can call each other. One of the most common examples is the three-layered architecture shown in Figure 2.
 
-![Three-layered architecture](../../assets/introduction/three-layered-architecture.png "Three-layered architecture")
-Figure 2: A three-layered architecture
+<p align="center">
+  <img src="../../assets/introduction/three-layered-architecture.png" width="60%" alt="Big Ball of Mud" > <br>
+  <em>Figure 2: A three-layered architecture</em>
+</p>
 
 We have user-interface components, which could be a web page, an API, or a command line; these user-interface components communicate with a business logic layer that contains our business rules and our workflows; and finally, we have a database layer.
 
